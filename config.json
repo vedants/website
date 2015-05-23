@@ -1,9 +1,9 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
+    "url": "http://bitcoin.berkeley.edu",
     "name": "Bitcoin Association of Berkeley",
-    "owner": "Someone",
-    "description": "Ramblings of an immor(t)al demigod"
+    "owner": "Bitcoin Association of Berkeley",
+    "description": "Student organizational website for the Bitcoin Association of Berkeley"
   },
   "plugins": [
     "./plugins/wintersmith-jade.coffee"
