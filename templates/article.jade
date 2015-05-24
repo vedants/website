@@ -1,0 +1,30 @@
+extends layout
+block head
+  link(rel='stylesheet', href=contents.css['article.css'].url)
+  meta(name="article-date" id="metadate" content=page.date)
+  script(src=contents.js['pretty_date.js'].url)
+  
+block content
+  div.article
+    div.article-header
+      div.container
+        div.row
+          span.twelve.columns#title
+            != page.title
+        if page.metadata
+          div.row
+            span.ten.columns#subtitle
+              != page.metadata.subtitle
+        div.row
+          span.ten.columns#metadata
+            | Posted by 
+            a(href="/"): != page.metadata.author 
+            |  
+            span#date
+              != page.date
+    div.article-body
+      div.container
+        != page.html
+        
+block footer
+  script(src=contents.js['main.js'].url)

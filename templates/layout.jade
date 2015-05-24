@@ -9,9 +9,10 @@ html(lang='en')
         = locals.name
     link(rel='stylesheey', href=contents.css['normalize.css'].url)
     link(rel='stylesheet', href=contents.css['skeleton.css'].url)
-    link(rel='stylesheet', href=contents.css['main.css'].url)
-    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700')
     link(rel='stylesheet', href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
+    link(rel='stylesheet', href=contents.css['main.css'].url)
+    block head
       
   body
     header.header
@@ -67,3 +68,4 @@ html(lang='en')
         br
         div.row
           p#footer-text Bitcoin Association of Berkeley, 2015. Created by David Nguyen
+      block footer

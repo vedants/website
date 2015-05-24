@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "article.css",
+  "sources": [
+    "article.sass"
+  ],
+  "sourcesContent": [],
+  "mappings": "AAcA,AACE,AAAe,AAEjB,AACE,AAAW,AACX,AAAa,AACb,AAAO,AACT,AAAS,AACL,AAAW,AAEf,AACE,AAAY,AACZ,AAAS,AACT,AAAa,AACb,AAAO,AAGT,AACE,AAAW,AACX,AAAa,AACb,AAAa,AAEf,AACE,AAAS,AACT,AAAY,AACZ,AAAa,AACb,AAAW,AACX,AA7BgB,AA+BlB,AACE,AAAS,AACT,AAAW,AACX,AAlCgB,AAmClB,AAAU,AACN,AAxCY,AAyCZ,AAAiB",
+  "names": []
+}
