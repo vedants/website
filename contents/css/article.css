@@ -12,19 +12,33 @@
     max-width: 720px; }
 
 /* line 25, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
+.article-body {
+  width: 100vw;
+  background-color: #fafafa; }
+
+/* line 30, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
 .article-header {
   min-height: 260px;
   padding: 72px 0;
   line-height: 6rem;
   width: 100%; }
 
-/* line 32, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
+@media (max-width: 978px) {
+  /* line 37, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
+  .article-header {
+    padding: 36px 0; } }
+
+/* line 41, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
+.article-footer {
+  min-height: 260px; }
+
+/* line 45, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
 #title {
   font-size: 5.2rem;
   line-height: 1.2;
   font-weight: 600; }
 
-/* line 37, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
+/* line 50, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
 #subtitle {
   display: inline-block;
   margin-top: 12px;
@@ -32,12 +46,12 @@
   font-size: 2.4rem;
   color: #616161; }
 
-/* line 44, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
+/* line 57, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
 #metadata {
   display: inline-block;
   font-size: 1.4rem;
   color: #616161; }
-  /* line 48, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
+  /* line 61, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
   #metadata a {
     color: #151818;
     text-decoration: underline; }

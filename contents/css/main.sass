@@ -48,7 +48,6 @@ body, main
   
 .header-logo
   margin-top: 10px
-  height:100px
    
 .navbar-items
   list-style: none
@@ -60,8 +59,23 @@ body, main
   margin: 0
   padding-left: 2.5rem
   line-height: 45px
+  
+@media (max-width: 978px) 
+  .navbar
+    line-height: 46px
+    text-align: center
+    .logo
+      display: block
+  .navbar-item
+    display: inline-block
+    padding-left: 1.25rem
 
-
+@media (max-width: 480px)
+  .navbar .logo
+    float: none
+  .navbar-items
+    float: none
+  
 .splash
   min-height: 530px
   width: 100vw
