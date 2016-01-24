@@ -4,5 +4,18 @@
     "underscore": "1.4.x",
     "typogr": "0.5.x"
   },
-  "repository": "none"
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "name": "bitcoin.berkeley.edu",
+  "description": "the main website for bitcoin.berkeley.edu", 
+  "version": "1.0.0",
+  "main": "none",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
