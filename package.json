@@ -1,18 +1,21 @@
 {
   "dependencies": {
     "moment": "2.3.x",
+    "typogr": "0.5.x",
     "underscore": "1.4.x",
-    "typogr": "0.5.x"
+    "wintersmith": "^2.2.5"
   },
   "repository": {
     "type": "git",
     "url": "none"
   },
   "name": "bitcoin.berkeley.edu",
-  "description": "the main website for bitcoin.berkeley.edu", 
+  "description": "the main website for bitcoin.berkeley.edu",
   "version": "1.0.0",
   "main": "none",
-  "devDependencies": {},
+  "devDependencies": {
+    "jade": "^1.11.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
