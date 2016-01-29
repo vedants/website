@@ -6,9 +6,7 @@
     "description": "Student organizational website for the Bitcoin Association of Berkeley"
   },
   "plugins": [
-    "./plugins/wintersmith-jade.coffee",
-    "async",
-    "jade"
+    "./plugins/wintersmith-jade.coffee"
   ],
   "require": {
     "moment": "moment",
