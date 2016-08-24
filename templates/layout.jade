@@ -7,26 +7,26 @@ html(lang='en')
     title
       block title
         = locals.name
-    link(rel='stylesheey', href=contents.css['normalize.css'].url)
+    
+    link(rel='stylesheet', href contents.css['normalize.css'].url)
     link(rel='stylesheet', href=contents.css['skeleton.css'].url)
-    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700')
+    link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700')
     link(rel='stylesheet', href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
     link(rel='stylesheet', href=contents.css['main.css'].url)
+    link(rel='stylesheet', href=contents.css['home.css'].url)
+
     block head
       
   body
     header.header
       nav.navbar
         div.container 
-          a(href='/', class=(page.metadata.active==='index' ? "active" : "")).logo Bitcoin Association of Berkeley
-          //
+          a(href='/').logo Bitcoin Association of Berkeley
             ul.navbar-items
               li.navbar-item
-                a(href='/news/', class=(page.metadata.active==='news' ? "active" : "")) News
-              li.navbar-item 
-                a(href='/projects/', class=(page.metadata.active==='projects' ? "active" : "")) Projects
-              li.navbar-item 
-                a(href='/events/', class=(page.metadata.active==='events' ? "active" : "")) Events
+                a(href='/resources') Resources
+              li.navbar-item
+                a(href='/decal') Decal
 
     div.main
       block content
