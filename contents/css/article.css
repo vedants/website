@@ -6,14 +6,12 @@
 .article {
   font-size: 1.8rem;
   line-height: 3rem;
-  width: 100vw; }
   /* line 22, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
   .article .container {
     max-width: 720px; }
 
 /* line 25, C:/Users/David/Projects/bitcoin_website/contents/css/article.sass */
 .article-body {
-  width: 100vw;
   background-color: #fafafa;
   padding: 36px 0; }
 

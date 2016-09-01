@@ -14,7 +14,6 @@ body, main {
 /* line 25, C:/Users/David/Projects/bitcoin_website/contents/css/main.sass */
 .navbar {
   z-index: 1337;
-  width: 100vw;
   padding: 0px 0;
   line-height: 65px; }
   /* line 26, C:/Users/David/Projects/bitcoin_website/contents/css/main.sass */
@@ -78,5 +77,13 @@ body, main {
   align-items: center;
   justify-content: center;
   text-align: center; }
+
+.row {
+  padding-left: 15px;
+}
+
+.odd {
+  background-color: #eee;
+}
 
 /*# sourceMappingURL=main.css.map */
