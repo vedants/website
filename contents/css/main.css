@@ -86,4 +86,12 @@ body, main {
   background-color: #eee;
 }
 
+.readings {
+  margin: 0;
+}
+
+.readings > li {
+  margin-bottom: 0;
+}
+
 /*# sourceMappingURL=main.css.map */
