@@ -1,9 +1,9 @@
 {
   "locals": {
     "url": "http://bitcoin.berkeley.edu",
-    "name": "Bitcoin Association of Berkeley",
-    "owner": "Bitcoin Association of Berkeley",
-    "description": "Student organizational website for the Bitcoin Association of Berkeley"
+    "name": "Blockchain at Berkeley", 
+    "owner": "Blockchain at Berkeley",
+    "description": "Student organizational website for  Blockchain at Berkeley"
   },
   "plugins": [
     "./plugins/wintersmith-jade.coffee"
